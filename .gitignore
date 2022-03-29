@@ -1,0 +1,5 @@
+node_modules/
+index.js
+example.txt
+package-lock.json
+package.json
