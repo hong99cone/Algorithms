@@ -4,3 +4,4 @@ example.txt
 package-lock.json
 package.json
 nodejs-value.js
+.DS_Store
