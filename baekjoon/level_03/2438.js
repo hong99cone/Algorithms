@@ -7,3 +7,10 @@ for (let i =0; i < num; i ++) {
     console.log(answer);
 }
 
+
+// method repeat 사용
+let stars = '';
+for (let i = 1; i <= num; i ++) {
+    stars= '*'.repeat(i);
+    console.log(stars);
+}
