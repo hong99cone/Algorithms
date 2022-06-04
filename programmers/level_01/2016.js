@@ -8,3 +8,11 @@ function solution(a, b) {
 
     return weeks[whatWeek % 7]
 }
+
+
+function solution2(a, b) {
+    let weeks = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
+    let date = new Date(`2016-${a}-${b}`);
+    let day = date.getDay();
+    return weeks[day];
+}
