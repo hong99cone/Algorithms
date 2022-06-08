@@ -6,3 +6,9 @@ function solution(a, b) {
     }
     return answer;
 }
+
+// method 이용풀이
+
+function solution(a, b) {
+    return a.reduce((prev, curr, idx) => prev += a[idx] * b[idx], 0)
+}
